@@ -15,7 +15,6 @@
 
     const iframe = document.querySelector('iframe');
     const foundDiv = document.getElementsByTagName('div');
-    console.log(foundDiv);
 
     iframe.setAttribute('style', iframeCss);
     foundDiv[(foundDiv.length - 1)].setAttribute('style', 'margin: 0 !important');
@@ -39,6 +38,7 @@
 })();
 
 // Monitoring the position
+
 window.addEventListener("orientationchange", () => {
     const doc = document.querySelector('iframe').contentWindow.document;
     const portraitImg = '<img src="frame/portrait.png" alt="#" style="width: 100%; height: 100%;">';
