@@ -1,0 +1,6 @@
+iframe {
+    position: static !important;
+    width: 300px !important;
+    height: 300px !important;
+    opacity: 1 !important;
+}
